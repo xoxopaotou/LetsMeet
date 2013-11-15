@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+      
+    <string name="country_prompt">Choose a country</string>
+    
+ <string-array name="country_arrays">
+        <item>Malaysia</item>
+        <item>United States</item>
+        <item>Indonesia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Singapore</item>
+        <item>New Zealand</item>
+        <item>India</item>
+    </string-array>
+    <string name="hello">Hello World, LoginActivity!</string>
+    <string name="app_name">groupwork</string>
+    <string name="action_settings">Settings</string>
+      <string name="login">Login</string>
+    <string name="title_section1">initiated</string>
+    <string name="title_section2">others</string>
+    <string name="title_activity_homepage">Homepage</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_schedule_an_event">Schedule_an_event</string>
+      <string name="title_activity_date">DatePicke</string>
+       <string name="title_activity_send_invitation">Send_invitation</string>
+</resources>

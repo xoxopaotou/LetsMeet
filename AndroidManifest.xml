@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.moban"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+                 android:name="com.example.moban.LoginActivity"
+            android:label="@string/title_activity_login" >
+          
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+           
+          </activity>
+       <activity
+               android:name="com.example.moban.Homepage"
+            android:label="@string/title_activity_homepage" >
+        </activity>
+        
+          <activity
+               android:name="com.example.moban.Schedule_an_event"
+            android:label="@string/title_activity_schedule_an_event" >
+        </activity>
+        <activity
+               android:name="com.example.moban.DatePicke"
+            android:label="@string/title_activity_date" >
+        </activity>
+           <activity
+               android:name="com.example.moban.Send_invitation"
+            android:label="@string/title_activity_send_invitation" >
+        </activity>
+    </application>
+
+</manifest>

@@ -29,6 +29,12 @@ public class Schedule_an_event extends Activity {
 	}
 	
 	
-	
+	 public void date(View v){
+	    	Intent intent = new Intent(Schedule_an_event.this, DatePicke.class);
+			startActivity(intent);
+	    	
+	    	
+	    }
+	    
 	   
 	  }

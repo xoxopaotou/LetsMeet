@@ -41,6 +41,10 @@
                android:name="com.example.moban.Send_invitation"
             android:label="@string/title_activity_send_invitation" >
         </activity>
+        <activity
+               android:name="com.example.moban.Time"
+            android:label="@string/title_activity_time" >
+        </activity>
     </application>
 
 </manifest>

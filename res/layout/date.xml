@@ -28,5 +28,13 @@
         android:id="@+id/dpResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+
+     <Button android:id="@+id/btnLogin" 
+		  		android:layout_width="fill_parent"
+		  		android:layout_height="wrap_content"
+		  	 
+		  		android:layout_marginTop="20dip"
+		  		android:onClick="time"
+		  		android:text="select time"/>
  
 </LinearLayout>

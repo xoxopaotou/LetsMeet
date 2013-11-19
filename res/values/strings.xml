@@ -23,5 +23,6 @@
     <string name="title_activity_login">LoginActivity</string>
     <string name="title_activity_schedule_an_event">Schedule_an_event</string>
       <string name="title_activity_date">DatePicke</string>
+       <string name="title_activity_time">Time</string>
        <string name="title_activity_send_invitation">Send_invitation</string>
 </resources>

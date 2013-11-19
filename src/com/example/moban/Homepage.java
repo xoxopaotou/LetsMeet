@@ -191,6 +191,7 @@ public class Homepage extends FragmentActivity implements ActionBar.TabListener 
 
 		}
 	}
+	
 
 	@Override
 	public void onTabReselected(Tab arg0, android.app.FragmentTransaction arg1) {
@@ -218,37 +219,8 @@ public class Homepage extends FragmentActivity implements ActionBar.TabListener 
     	
     	
     }
-    public void date(View v){
-    	Intent intent = new Intent(Homepage.this, DatePicke.class);
-		startActivity(intent);
-    	
-    	
-    }
     
-    public void send_invitation(View v){
-    	Intent intent = new Intent(Homepage.this, Send_invitation.class);
-		startActivity(intent);
-    	
-    	
-    }
+ 
     
-    
- 	/*public void createtask(View v) {
-		Intent intent = new Intent(Homepage.this, CreateTask.class);
-		startActivity(intent);
-
-	}
-
-	public void createproject(View v) {
-		Intent intent = new Intent(Homepage.this, CreateProject.class);
-		startActivity(intent);
-
-	}
-
-	public void projectdetail(View v) {
-		Intent intent = new Intent(Homepage.this, Projectdetail.class);
-		startActivity(intent);
-
-	}*/
 
 }

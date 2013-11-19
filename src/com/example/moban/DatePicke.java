@@ -2,9 +2,12 @@ package com.example.moban;
  
 
 import java.util.Calendar;
+import java.util.GregorianCalendar;
+
 import android.app.Activity;
 import android.app.DatePickerDialog;
 import android.app.Dialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
@@ -34,8 +37,21 @@ public class DatePicke extends Activity {
 		addListenerOnButton();
 
 	}
+
+ 
 	 
-	 
+	public void login(View v){
+		Intent intent = new Intent(DatePicke.this, Schedule_an_event.class);
+		startActivity(intent);
+	}
+	
+	
+	 public void time(View v){
+	    	Intent intent = new Intent(DatePicke.this, Time.class);
+			startActivity(intent);
+	    	
+	    	
+	    }
 		 
 
 	// display current date
@@ -50,7 +66,7 @@ public class DatePicke extends Activity {
 		tvDisplayDate = (TextView) findViewById(R.id.tvDate);
 		dpResult = (DatePicker) findViewById(R.id.dpResult);
 
-		final Calendar c = Calendar.getInstance();
+		final Calendar c = new GregorianCalendar();
 		year = c.get(Calendar.YEAR);
 		month = c.get(Calendar.MONTH);
 		day = c.get(Calendar.DAY_OF_MONTH);
@@ -93,7 +109,7 @@ public class DatePicke extends Activity {
 		}
 		return null;
 	}
-
+	 
 	private DatePickerDialog.OnDateSetListener datePickerListener = new DatePickerDialog.OnDateSetListener() {
 
 		// when dialog box is closed, below method will be called.

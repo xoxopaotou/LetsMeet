@@ -24,15 +24,22 @@
             </intent-filter>
            
           </activity>
+          
        <activity
                android:name="com.example.moban.Homepage"
-            android:label="@string/title_activity_homepage" >
+            android:label="@string/title_activity_homepage"
+             >
         </activity>
-        
+                  <activity
+               android:name="com.example.moban.Initiated"
+            android:label="@string/title_activity_initiated" >
+        </activity>
           <activity
                android:name="com.example.moban.Schedule_an_event"
             android:label="@string/title_activity_schedule_an_event" >
         </activity>
+        
+          
         <activity
                android:name="com.example.moban.DatePicke"
             android:label="@string/title_activity_date" >

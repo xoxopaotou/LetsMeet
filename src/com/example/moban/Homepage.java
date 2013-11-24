@@ -1,6 +1,7 @@
 package com.example.moban;
 
 import java.util.Locale;
+
  
 
 import android.annotation.SuppressLint;
@@ -215,6 +216,12 @@ public class Homepage extends FragmentActivity implements ActionBar.TabListener 
 	 
     public void schedule_an_event(View v){
     	Intent intent = new Intent(Homepage.this, Schedule_an_event.class);
+		startActivity(intent);
+    	
+    	
+    }
+    public void initiated(View v){
+    	Intent intent = new Intent(Homepage.this, Initiated.class);
 		startActivity(intent);
     	
     	

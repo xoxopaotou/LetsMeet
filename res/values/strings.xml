@@ -21,6 +21,7 @@
     <string name="title_section2">others</string>
     <string name="title_activity_homepage">Homepage</string>
     <string name="title_activity_login">LoginActivity</string>
+     <string name="title_activity_initiated">Initiated</string>
     <string name="title_activity_schedule_an_event">Schedule_an_event</string>
       <string name="title_activity_date">DatePicke</string>
        <string name="title_activity_time">Time</string>

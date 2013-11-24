@@ -65,6 +65,8 @@ public class DatePicke extends Activity {
 
 		tvDisplayDate = (TextView) findViewById(R.id.tvDate);
 		dpResult = (DatePicker) findViewById(R.id.dpResult);
+		
+		dpResult.setCalendarViewShown(false);
 
 		final Calendar c = new GregorianCalendar();
 		year = c.get(Calendar.YEAR);

@@ -37,13 +37,14 @@ public final class R {
         public static final int yes=0x7f02000a;
     }
     public static final class id {
-        public static final int TableRow1=0x7f090016;
-        public static final int action_settings=0x7f090018;
+        public static final int TableRow1=0x7f090017;
+        public static final int action_settings=0x7f09001b;
         public static final int btnChangeDate=0x7f090006;
         public static final int btnLogin=0x7f09000a;
-        public static final int btnRegister=0x7f090014;
+        public static final int btnRegister=0x7f090015;
         public static final int button1=0x7f090004;
         public static final int button2=0x7f090005;
+        public static final int button3=0x7f090011;
         public static final int dpResult=0x7f090009;
         public static final int editText1=0x7f090003;
         public static final int header=0x7f09000f;
@@ -51,16 +52,18 @@ public final class R {
         public static final int lblDate=0x7f090007;
         public static final int lblListHeader=0x7f09000d;
         public static final int lblListItem=0x7f09000e;
-        public static final int link_to_login=0x7f090015;
+        public static final int link_to_login=0x7f090016;
         public static final int link_to_register=0x7f090010;
         public static final int lvExp=0x7f09000c;
         public static final int pager=0x7f090000;
-        public static final int reg_email=0x7f090012;
-        public static final int reg_fullname=0x7f090011;
-        public static final int reg_password=0x7f090013;
+        public static final int reg_email=0x7f090013;
+        public static final int reg_fullname=0x7f090012;
+        public static final int reg_password=0x7f090014;
         public static final int section_label=0x7f09000b;
+        public static final int studentList=0x7f090019;
+        public static final int studentListLabel=0x7f090018;
         public static final int textView1=0x7f090001;
-        public static final int timePicker1=0x7f090017;
+        public static final int timePicker1=0x7f09001a;
         public static final int tvDate=0x7f090008;
     }
     public static final class layout {
@@ -74,21 +77,27 @@ public final class R {
         public static final int list_group=0x7f030007;
         public static final int list_item=0x7f030008;
         public static final int login=0x7f030009;
-        public static final int main=0x7f03000a;
-        public static final int others=0x7f03000b;
-        public static final int register=0x7f03000c;
-        public static final int schedule_an_event=0x7f03000d;
-        public static final int send_invitation=0x7f03000e;
-        public static final int time=0x7f03000f;
-        public static final int timecoordinator=0x7f030010;
+        public static final int loginactivity=0x7f03000a;
+        public static final int main=0x7f03000b;
+        public static final int mymeet=0x7f03000c;
+        public static final int others=0x7f03000d;
+        public static final int register=0x7f03000e;
+        public static final int schedule_an_event=0x7f03000f;
+        public static final int send_invitation=0x7f030010;
+        public static final int student_list=0x7f030011;
+        public static final int time=0x7f030012;
+        public static final int timecoordinator=0x7f030013;
     }
     public static final class menu {
-        public static final int date=0x7f080000;
-        public static final int initiated=0x7f080001;
-        public static final int main=0x7f080002;
-        public static final int schedule_an_event=0x7f080003;
-        public static final int send_invitation=0x7f080004;
-        public static final int time=0x7f080005;
+        public static final int checksche=0x7f080000;
+        public static final int date=0x7f080001;
+        public static final int initiated=0x7f080002;
+        public static final int main=0x7f080003;
+        public static final int mymeet=0x7f080004;
+        public static final int schedule_an_event=0x7f080005;
+        public static final int send_invitation=0x7f080006;
+        public static final int time=0x7f080007;
+        public static final int timecoordinator=0x7f080008;
     }
     public static final class string {
         public static final int action_settings=0x7f050003;
@@ -96,13 +105,17 @@ public final class R {
         public static final int country_prompt=0x7f050000;
         public static final int hello=0x7f050001;
         public static final int login=0x7f050004;
+        public static final int title_activity_action=0x7f05000f;
+        public static final int title_activity_checksche=0x7f05000e;
         public static final int title_activity_date=0x7f05000b;
         public static final int title_activity_homepage=0x7f050007;
         public static final int title_activity_initiated=0x7f050009;
-        public static final int title_activity_login=0x7f050008;
+        public static final int title_activity_loginactivity=0x7f050008;
+        public static final int title_activity_mymeet=0x7f050010;
         public static final int title_activity_schedule_an_event=0x7f05000a;
         public static final int title_activity_send_invitation=0x7f05000d;
         public static final int title_activity_time=0x7f05000c;
+        public static final int title_activity_timecoordinator=0x7f050011;
         public static final int title_section1=0x7f050005;
         public static final int title_section2=0x7f050006;
     }

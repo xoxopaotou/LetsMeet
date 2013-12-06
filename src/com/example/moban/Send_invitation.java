@@ -1,8 +1,12 @@
 package com.example.moban;
 
 import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.View;
+import android.widget.Toast;
 
 public class Send_invitation extends Activity {
 
@@ -18,5 +22,11 @@ public class Send_invitation extends Activity {
 		getMenuInflater().inflate(R.menu.send_invitation, menu);
 		return true;
 	}
-	
+	public void mymeet(View v){
+    	Intent intent = new Intent(Send_invitation.this, Mymeet.class);
+		startActivity(intent);
+    	
+    	
+    }
+	 
 }

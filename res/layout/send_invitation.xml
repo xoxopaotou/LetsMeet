@@ -100,12 +100,17 @@
 
             <!-- Login button -->
 
-            <Button
-                android:id="@+id/btnLogin"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="100dip"
-                android:text="SEND AND FINISH" />
+           <Button
+             android:id="@+id/button1"
+              android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:text="send invitation"
+              android:layout_weight=".5"
+               android:layout_marginLeft="5dip"
+            android:layout_marginTop="50dip"
+             android:background="#E8E8E8"
+             android:onClick="mymeet" />
+    
         </LinearLayout>
         <!-- Login Form Ends -->
 

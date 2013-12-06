@@ -24,7 +24,7 @@ public class Schedule_an_event extends Activity {
 	}
 	
 	public void login(View v){
-		Intent intent = new Intent(Schedule_an_event.this, Homepage.class);
+		Intent intent = new Intent(Schedule_an_event.this, Mymeet.class);
 		startActivity(intent);
 	}
 	

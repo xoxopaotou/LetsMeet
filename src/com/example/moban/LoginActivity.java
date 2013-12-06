@@ -11,19 +11,24 @@ public class LoginActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.login);
+		setContentView(R.layout.loginactivity);
 	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.main, menu);
+		getMenuInflater().inflate(R.menu.time, menu);
 		return true;
 	}
 	
 	public void login(View v){
-		Intent intent = new Intent(LoginActivity.this, Homepage.class);
+		Intent intent = new Intent(LoginActivity.this, Timecoordinator.class);
 		startActivity(intent);
 	}
-
+	public void mymeet(View v){
+    	Intent intent = new Intent(LoginActivity.this, Mymeet.class);
+		startActivity(intent);
+    	
+    	
+    }
 }

@@ -14,9 +14,8 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-                 android:name="com.example.moban.LoginActivity"
-            android:label="@string/title_activity_login" >
-          
+               android:name="com.example.moban.Timecoordinator"
+            android:label="@string/title_activity_timecoordinator" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,14 +24,14 @@
            
           </activity>
           
-       <activity
-               android:name="com.example.moban.Homepage"
-            android:label="@string/title_activity_homepage"
-             >
-        </activity>
                   <activity
-               android:name="com.example.moban.Initiated"
-            android:label="@string/title_activity_initiated" >
+                 android:name="com.example.moban.LoginActivity"
+            android:label="@string/title_activity_loginactivity" >
+        </activity>
+     
+                     <activity
+               android:name="com.example.moban.Checksche"
+            android:label="@string/title_activity_checksche" >
         </activity>
           <activity
                android:name="com.example.moban.Schedule_an_event"
@@ -52,6 +51,11 @@
                android:name="com.example.moban.Time"
             android:label="@string/title_activity_time" >
         </activity>
+         <activity
+               android:name="com.example.moban.Mymeet"
+            android:label="@string/title_activity_mymeet" >
+        </activity>
+         
     </application>
 
 </manifest>
